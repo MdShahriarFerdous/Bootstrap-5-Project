@@ -25,8 +25,8 @@ body {
 	font-size: 1.125rem;
 }
 .form-check-input {
-	height: 22px;
-	width: 32px;
+	height: 1.375rem;
+	width: 2rem;
 }
 .drop-background-color {
 	background-color: #ebc98b;
@@ -58,7 +58,7 @@ body {
 .button-color {
 	background-color: #525fe1;
 	color: white;
-	padding: 12px 24px;
+	padding: 0.75rem 1.5rem;
 	font-size: 1.2rem;
 }
 .button-color:hover {
@@ -77,7 +77,7 @@ body {
 	height: auto;
 }
 #clients-section .img-fluid {
-	filter: grayscale(80%);
+	filter: grayscale(100%);
 }
 
 /* --------------------------------News letetr section-----------------------------  */
@@ -85,7 +85,7 @@ body {
 .button-color-letter {
 	background-color: #f95738;
 	color: #ffffff;
-	padding: 10px 20px;
+	padding: 0.625rem 1.25rem;
 	border: none;
 }
 .button-color-letter:hover {
@@ -111,7 +111,7 @@ body {
 .button-enroll-color {
 	background-color: #525fe1;
 	color: white;
-	padding: 10px 20px;
+	padding: 0.625rem 1.25rem;
 }
 .card-title {
 	color: #2e4f80;
@@ -133,7 +133,7 @@ body {
 .testimonial-image {
 	width: 10%;
 	border-radius: 100%;
-	margin: 20px;
+	margin: 1.25rem;
 }
 .carousel-item {
 	padding: 3% 15%;
@@ -417,10 +417,16 @@ body {
 .social_media_container a {
 	text-decoration: none;
 }
+/* -----------------------Tab view section------------------------- */
+.alumni-talk {
+	color: #3c3c3d;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
 
 @media (min-width: 768px) {
 	.news-input {
 		width: 50%;
 	}
 }
-/* #F95738 */
+
