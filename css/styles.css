@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@500;700&display=swap");
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: "Poppins", sans-serif;
+	color: #30324d;
+}
+/* -----------------------------------------navbar------------------------------ */
+.navbar {
+	min-height: 4.5rem;
+}
+.navbar-brand {
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 700;
+	color: #525fe1;
+	font-size: 2rem;
+}
+.navbar-brand:hover {
+	color: #525fe1;
+}
+.navbar-nav {
+	color: #30324d;
+	font-weight: 500;
+	font-size: 1.125rem;
+}
+.form-check-input {
+	height: 22px;
+	width: 32px;
+}
+.drop-background-color {
+	background-color: #ebc98b;
+}
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+.dropdown-menu {
+	width: 15rem;
+	height: 12rem;
+}
+.dropdown-item {
+	padding: 1rem;
+}
+
+/* -----------------------------------------Hero section------------------------------ */
+
+.bg-color-hero {
+	background-color: #f6ae2d;
+}
+.title {
+	font-weight: 700;
+	color: #2e4f80;
+}
+.title-para {
+	width: 85%;
+}
+
+.button-color {
+	background-color: #525fe1;
+	color: white;
+	padding: 12px 24px;
+	font-size: 1.2rem;
+}
+.button-color:hover {
+	background-color: #343fbb;
+	color: white;
+}
+
+/* --------------------------------Client section-----------------------------  */
+#clients-section .img-fluid {
+	width: 7.9rem;
+	margin-bottom: 1rem;
+}
+#clients-section {
+	width: 100%;
+	background: #f8eeee;
+	height: auto;
+}
+#clients-section .img-fluid {
+	filter: grayscale(80%);
+}
+
+/* --------------------------------News letetr section-----------------------------  */
+
+.button-color-letter {
+	background-color: #f95738;
+	color: #ffffff;
+	padding: 10px 20px;
+	border: none;
+}
+.button-color-letter:hover {
+	background-color: #c0381d;
+}
+.news-letetr-title {
+	font-weight: 700;
+	color: #2e4f80;
+}
+
+/* --------------------------------Course section-----------------------------  */
+.card {
+	transition: 0.5s ease-in-out;
+}
+.card:hover {
+	transform: translateY(-14px);
+}
+.alert {
+	width: 70%;
+	height: 5%;
+	margin: auto;
+}
+.button-enroll-color {
+	background-color: #525fe1;
+	color: white;
+	padding: 10px 20px;
+}
+.card-title {
+	color: #2e4f80;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+/* .dark body #course-section .contact_head h3 {
+	color: white;
+} */
+
+/* .......------------Testimonial-section--------------------------- */
+
+.testimonial-text {
+	font-size: 2.5rem;
+	line-height: 1.5;
+	font-weight: 600;
+	padding-top: 4%;
+}
+.testimonial-image {
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+.carousel-item {
+	padding: 3% 15%;
+}
+
+#testimonials {
+	background-color: #8b91da;
+	text-align: center;
+	color: #fff;
+	font-family: "Montserrat", sans-serif;
+}
+
+/* --------------------------Success-section----------------------------- */
+.success .container {
+	padding-top: 2rem;
+	padding-bottom: 2.3rem;
+}
+.progress_bar_section h3 {
+	font-weight: bold;
+	color: #2e4f80;
+	font-size: 2.3rem;
+}
+.progress_bar_section p {
+	color: rgb(160, 141, 141);
+}
+.progress_bar_section .start,
+.end {
+	color: #5375a8;
+	font-size: 0.9rem;
+	font-weight: 600;
+}
+.progress {
+	height: 1rem;
+}
+.progress-bar {
+	height: 1rem;
+}
+.success-image {
+	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* --------------------------------------FAQ-------------------------- */
+.faq {
+	margin: 5.5rem 0rem;
+}
+.faq .container {
+	padding: 4rem 0rem;
+}
+.faq .accordion {
+	width: 75%;
+}
+.faq_head {
+	width: 100%;
+	text-align: center;
+}
+.faq_head h3 {
+	font-size: 2.2rem;
+	font-weight: bold;
+	color: #2e4f80;
+	margin-bottom: 1.5rem;
+}
+.faq_head p {
+	font-weight: 400;
+	line-height: 1.6rem;
+	font-size: 1rem;
+	color: rgb(117, 107, 107);
+	margin-bottom: 2.5rem;
+}
+.faq .accordion_button_icon {
+	margin-right: 0.6rem;
+	color: #72a6f5;
+	font-size: 1.1rem;
+}
+.faq .accordion-button {
+	color: #79a3e0;
+	font-size: 1rem;
+	font-family: "Open Sans", sans-serif !important;
+	font-weight: bold;
+}
+.faq .accordion-body {
+	color: #767b83;
+	font-weight: 400;
+}
+.faq .accordion {
+	width: 75%;
+	margin: auto;
+}
+
+/* .......------------Contact-section--------------------------- */
+.info_section {
+	padding: 2rem;
+	border-bottom: 0.2rem solid rgb(115, 115, 226);
+}
+.adress,
+.email,
+.call {
+	gap: 1.4rem;
+	margin-top: 0.4rem;
+}
+.contact {
+	padding: 1rem 0rem 3rem 0rem;
+}
+.info_icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.3rem;
+	background: rgb(238, 228, 228);
+	border-radius: 50%;
+	width: 2.7rem;
+	height: 2.7rem;
+	text-align: center;
+	margin-right: 0.6rem;
+	transition: 0.3s ease-in-out;
+	color: #6191d8;
+}
+.adress:hover .info_icon {
+	color: white;
+	background: #6191d8;
+}
+.email:hover .info_icon {
+	color: white;
+	background: #6191d8;
+}
+.call:hover .info_icon {
+	color: white;
+	background: #6191d8;
+}
+
+.contact_head {
+	text-align: center;
+}
+.contact_head h3 {
+	font-size: 2.2rem;
+	font-weight: bold;
+	color: #2e4f80;
+	margin-bottom: 1.3rem;
+}
+.contact_head p {
+	font-size: 1.1rem;
+	margin-bottom: 2rem;
+}
+.contact h4 {
+	color: #2e4f80;
+	font-weight: 600;
+}
+.contact p,
+.contact_head p {
+	margin-top: 0.3rem;
+	color: #87909e;
+}
+.map {
+	width: 100%;
+	margin-top: 1rem;
+}
+.map iframe {
+	margin: auto;
+}
+.contact_section_flex {
+	justify-content: space-between;
+	gap: 0.3rem;
+}
+.message_section {
+	width: 55%;
+	padding: 2rem 2rem 0rem 2rem;
+	border-bottom: 0.2rem solid rgb(115, 115, 226);
+}
+.floating_label {
+	margin-left: 1rem;
+	font-size: 1.1rem;
+	color: #315892;
+}
+
+.message_button {
+	padding: 0.875rem 1.5rem;
+	background-color: #f95738;
+	width: 40%;
+	color: white;
+	font-size: 1.2rem;
+	margin: 0rem auto 0rem auto;
+	border: none;
+	transition: 0.3s ease-in-out;
+	margin-bottom: 1rem;
+}
+.message_button:hover {
+	background-color: #c0381d;
+}
+
+/* -----------------------Instructor Section--------------------- */
+.instructors{
+	overflow: hidden;
+	margin-bottom: 3rem;
+	background: #8b91da;
+}
+.instructors .container {
+	padding: 5rem 0rem;
+}
+.team-text h2 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 1.5rem;
+}
+.team-text p {
+	font-weight: 500;
+	line-height: 1.6rem;
+	font-size: 1rem;
+	color: rgb(255, 255, 255);
+	margin-bottom: 2.5rem;
+}
+.team_card_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: rgb(248, 248, 248);
+	align-items: center;
+	margin-bottom: 1.4rem;
+	margin-left: 0.7rem;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+	border-radius: 0.5rem;
+	transition: 0.5s ease-in-out;
+	border: 1px solid white;
+}
+.team_card_container:hover {
+	transform: translateY(-11px);
+}
+.team_image {
+	width: 9rem;
+	text-align: center;
+	border-radius: 50%;
+}
+.team_image_container {
+	display: block;
+	margin: auto;
+	padding: 1rem;
+}
+.team_about {
+	margin: 0;
+	padding: 1rem;
+}
+.team_name {
+	margin: 0;
+	font-size: 1.3rem;
+	color: #426395;
+	font-weight: bold;
+}
+.team-desig {
+	font-size: 0.9rem;
+	color: rgb(156, 137, 137);
+	font-weight: 500;
+	margin-top: 0.3rem;
+}
+.team_about_text {
+	color: rgb(156, 137, 137);
+	font-size: 0.9rem;
+}
+.social_media_container {
+	display: flex;
+	flex-direction: row;
+}
+.img_icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.9rem;
+	background: rgb(230, 213, 213);
+	border-radius: 50%;
+	width: 2rem;
+	height: 2rem;
+	text-align: center;
+	margin-right: 0.6rem;
+	transition: 0.3s ease-in-out;
+	color: #3a5d90;
+}
+.img_icon:hover {
+	background: rgb(99, 125, 196);
+	color: white;
+}
+.social_media_container a {
+	text-decoration: none;
+}
+
+@media (min-width: 768px) {
+	.news-input {
+		width: 50%;
+	}
+}
+/* #F95738 */

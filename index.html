@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CodeTime</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+			crossorigin="anonymous"
+		/>
+		<!--font awesome link-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/4fc7af3382.js" crossorigin="anonymous"></script>
+		<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<header>
+			<nav class="navbar bg-color-hero navbar-expand-lg">
+				<div class="container">
+					<a class="navbar-brand" href="">CodeTime</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarTogglerDemo02"
+						aria-controls="navbarTogglerDemo02"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div
+						class="collapse navbar-collapse"
+						id="navbarTogglerDemo02"
+					>
+						<ul class="navbar-nav ms-auto">
+							<li class="nav-item me-4">
+								<a class="nav-link" href="#course-section">Courses</a>
+							</li>
+							<li class="nav-item me-4">
+								<a class="nav-link" href="#instructor">Instructors</a>
+							</li>
+							<li class="nav-item me-4">
+								<a class="nav-link" href="#contact-section">Contact</a>
+							</li>
+							<li class="nav-item me-4">
+								<div class="dropdown">
+									<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Details</a>
+									<div class="dropdown-menu drop-background-color">
+										<a href="#news-letter-section" class="dropdown-item">Newsletter</a>
+										<a href="#success-section" class="dropdown-item">Success</a>
+										<a href="#testimonials" class="dropdown-item">Alumni Talk</a>
+								</div>
+							</li>
+							<li class="nav-item me-4">
+								<a class="nav-link" href="#FAQ">FAQ</a>
+							</li>
+							<li class="form-check form-switch py-2">
+								<input class="form-check-input" type="checkbox" id="darkSwitch">
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<!------------------------------ Hero section ----------------------------------->
+			<section id="hero-section" class="p-5 bg-color-hero">
+				<div class="container">
+					<div class="row d-sm-flex gx-5 my-4">
+						<div class="col-lg-6 text-center text-sm-start">
+							<h1 class="display-5 my-3 title">
+								Chase Your Dream by Developing Yourself
+							</h1>
+							<p class="lead my-3">
+								Provides you with the latest online learning
+								system and material that help you growing.
+							</p>
+							<button
+								type="button"
+								class="btn button-color my-3 rounded-3 my-3"
+								data-bs-toggle="modal"
+								data-bs-target="#started"
+							>
+								Get Started
+							</button>
+						</div>
+						<div class="col-lg-6">
+							<img
+								class="img img-fluid d-sm-block d-none pt-3 text-center"
+								src="img/code.svg"
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+
+<!--------------- ---------------- -----Client section ---------------------->
+			<section id="clients-section">
+				<div class="container">
+					<div class="row row-cols-2 d-flex justify-content-between align-items-center mb-5 p-3 w-100 ms-auto">
+						<div class="col-md-2"><img class="img-fluid" src="img/client3.png" alt="Client 1" /></div>
+						<div class="col-md-2"><img class="img-fluid" src="img/client2.png" alt="Client 2" /></div>
+						<div class="col-md-2"><img class="img-fluid" src="img/client1.png" alt="Client 3" /></div>
+						<div class="col-md-2"><img class="img-fluid" src="img/client4.png" alt="Client 4" /></div>
+						<div class="col-md-2"><img class="img-fluid" src="img/client5.png" alt="Client 5" /></div>
+						<div class="col-md-2"><img class="img-fluid" src="img/client6.png" alt="Client 6" /></div>
+					</div>
+				</div>
+			</section>
+
+<!-------------------------------------Course section ------------------------------ -->
+			<section id="course-section" class="p-5">
+				<div class="container">
+					<div class="contact_head">
+						<h3 class="mb-4">OUR COURSES</h3>
+						<P class="mb-5">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</P>
+					</div>
+					
+					<div class="row">
+						<div class="col-lg-4 col-md-6 mb-5">
+							<div class="card shadow-sm" style="width: 20rem;">
+								<img src="img/mern.jpg" class="card-img-top img-fluid" alt="...">
+								<div class="card-body text-center">
+									<h5 class="card-title">MERN Stack</h5>
+									<div class="alert alert-info mb-4 mt-4" role="alert">
+									  8000 BDT
+									</div>
+								  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, magna aliqua.</p>
+								  <a href="#" class="btn btn-lg mb-2 button-enroll-color">Enroll Now</a>
+								</div>
+							  </div>
+						</div>
+						<div class="col-lg-4 col-md-6 mb-5">
+							<div class="card shadow-sm" style="width: 20rem;">
+								<img src="img/php.jpg" class="card-img-top img-fluid" alt="...">
+								<div class="card-body text-center">
+								  <h5 class="card-title">PHP & Laravel</h5>
+								  <div class="alert alert-info mb-4 mt-4" role="alert">
+									8000 BDT
+								  </div>
+								  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, magna aliqua.</p>
+								  <a href="#" class="btn btn-lg mb-2 button-enroll-color">Enroll Now</a>
+								</div>
+							  </div>
+						</div>
+						<div class="col-lg-4 col-md-6 mb-5">
+							<div class="card shadow-sm" style="width: 20rem;">
+								<img src="img/flutter.jpg" class="card-img-top img-fluid" alt="...">
+								<div class="card-body text-center">
+								  <h5 class="card-title">Flutter</h5>
+								  <div class="alert alert-info mb-4 mt-4" role="alert">
+									6000 BDT
+								  </div>
+								  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, magna aliqua.</p>
+								  <a href="#" class="btn btn-lg mb-2 button-enroll-color">Enroll Now</a>
+								</div>
+							  </div>
+						</div>
+						<div class="col-lg-4 col-md-6 mb-5">
+							<div class="card shadow-sm" style="width: 20rem;">
+								<img src="img/UX-UI.jpg" class="card-img-top img-fluid" alt="...">
+								<div class="card-body text-center">
+								  <h5 class="card-title">UX/UI Design</h5>
+								  <div class="alert alert-info mb-4 mt-4" role="alert">
+									6000 BDT
+								  </div>
+								  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, magna aliqua.</p>
+								  <a href="#" class="btn btn-lg mb-2 button-enroll-color">Enroll Now</a>
+								</div>
+							  </div>
+						</div>
+						<div class="col-lg-4 col-md-6 mb-5">
+							<div class="card shadow-sm" style="width: 20rem;">
+								<img src="img/Data.png" class="card-img-top img-fluid" alt="...">
+								<div class="card-body text-center">
+								  <h5 class="card-title">Data Science</h5>
+								  <div class="alert alert-info mb-4 mt-4" role="alert">
+									6000 BDT
+								  </div>
+								  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, magna aliqua.</p>
+								  <a href="#" class="btn btn-lg mb-2 button-enroll-color">Enroll Now</a>
+								</div>
+							  </div>
+						</div>
+						<div class="col-lg-4 col-md-6 mb-5">
+							<div class="card shadow-sm" style="width: 20rem;">
+								<img src="img/Android.png" class="card-img-top img-fluid" alt="...">
+								<div class="card-body text-center">
+								  <h5 class="card-title">Android with Kotlin</h5>
+								  <div class="alert alert-info mb-4 mt-4" role="alert">
+									6000 BDT
+								  </div>
+								  <p class="card-text">Lorem ipsum dolor sit amet, ggg ffconsectetur adipiscing elit, magna aliqua.</p>
+								  <a href="#" class="btn btn-lg mb-2 button-enroll-color">Enroll Now</a>
+								</div>
+							  </div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+<!------------------------- ---------Testimonials Section-------------------------------- -->
+
+			<section id="testimonials" class="shadow-lg">
+					<div
+					id="carouselExampleControls"
+					class="carousel slide"
+					data-bs-ride="carousel"
+				>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<h2 class="testimonial-text">
+								CodeTime is a life saver for me . I've
+								found my dream job because of this platform.
+							</h2>
+							<img
+								class="testimonial-image"
+								src="img/dog-img.jpg"
+								alt="dog-profile"
+							/>
+							<em>Pebbles, New York</em>
+						</div>
+						<div class="carousel-item">
+							<h2 class="testimonial-text">
+								One of the most loveable online education platform
+								for me. Thanks to CodeTime for make me a happy graduate.
+							</h2>
+							<img
+								class="testimonial-image"
+								src="img/lady-img.jpg"
+								alt="lady-profile"
+							/>
+							<em>Beverly, Illinois</em>
+						</div>
+						<div class="carousel-item">
+							<h2 class="testimonial-text">
+								You can choose this edu Platform Without
+								any hesitation. All the graduates including
+								me in a giant tech company because of them.
+							</h2>
+							<img
+								class="testimonial-image"
+								src="img/lady-img.jpg"
+								alt="lady-profile"
+							/>
+							<em>John, Illinois</em>
+						</div>
+						<div class="carousel-item">
+							<h2 class="testimonial-text">
+								My dog used to be so lonely, but with TinDog's help,
+								they've found the love of their life. I think.
+							</h2>
+							<img
+								class="testimonial-image"
+								src="img/lady-img.jpg"
+								alt="lady-profile"
+							/>
+							<em>Beverly, Illinois</em>
+						</div>
+					</div>
+					<button
+						class="carousel-control-prev"
+						type="button"
+						data-bs-target="#carouselExampleControls"
+						data-bs-slide="prev"
+					>
+						<span
+							class="carousel-control-prev-icon"
+							aria-hidden="true"
+						></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button
+						class="carousel-control-next"
+						type="button"
+						data-bs-target="#carouselExampleControls"
+						data-bs-slide="next"
+					>
+						<span
+							class="carousel-control-next-icon"
+							aria-hidden="true"
+						></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+					</div>
+			</section>
+
+<!-------------------------------- Success section-------------------------------- -->
+			<section id="success-section" class="success p-4 mb-5 my-5">
+				<div class="container">
+					<div class="row d-flex justify-content-center align-items-center">
+						<div class="col-md-6">
+							<img class="success-image img-fluid" src="img/success.svg" alt="skills" >
+						</div>
+						<div class="col-md-6">
+							<div class="progress_bar_section mt-3">
+								<h3>Our graduates placement rate in Giant Tech companies</h3>
+								<div class="col-md-12">
+									<div class="d-flex justify-content-between font-weight-bold">
+										<div class="start">Google</div>
+										<div class="end">70%</div>
+									</div>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="70" style="width:70%;" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									
+								</div>
+
+								<div class="col-md-12 mt-4">
+									<div class="d-flex justify-content-between font-weight-bold">
+										<div class="start">Facebook</div>
+										<div class="end">60%</div>
+									</div>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="60" style="width:60%;" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									
+								</div>
+
+								<div class="col-md-12 mt-4">
+									<div class="d-flex justify-content-between font-weight-bold">
+										<div class="start">Amazon</div>
+										<div class="end">65%</div>
+									</div>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="65" style="width:65%;" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									
+								</div>
+
+								<div class="col-md-12 mt-4">
+									<div class="d-flex justify-content-between font-weight-bold">
+										<div class="start">Apple</div>
+										<div class="end">70%</div>
+									</div>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="70" style="width:70%;" aria-valuemin="0" aria-valuemax="100"></div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+<!-- ----------------------------Instructor section-------------------------- -->
+			<section class="instructors p-3" id="instructor">
+				<div class="container">
+					<div class="team-text text-center">
+						<h2>INSTRUCTORS</h2>
+						<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="row team_card_container">
+								<div class="col-4 team_image_container">
+									<img src="img/instructor-1.jpg" class="team_image" alt="Sharah Johnson">
+								</div>
+								<div class="col-8 team_about gx-5">
+									<h3 class="team_name">Walter White</h3>
+									<p class="team-desig">Software Engineer</p>
+									<p class="team_about_text">Aut maiores voluptates amet et quis praesentium qui senda </p>
+									<div class="social_media_container">
+										<a href="#" target="_blank"><i class="fab fa-facebook-f img_icon"></i></a>
+
+										<a href="#" target="_blank"><i class="fab fa-twitter img_icon"></i></a>
+
+										<a href="#" target="_blank"><i class="fab fa-instagram-square img_icon"></i></a>
+
+										<a href="#" target="_blank"><i class="fab fa-linkedin img_icon"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="row team_card_container">
+								<div class="col-4 team_image_container">
+									<img src="img/instructor-2.jpg" class="team_image" alt="Sharah Johnson">
+								</div>
+								<div class="col-8 team_about gx-5">
+									<h3 class="team_name">Sharah Johnson</h3>
+									<p class="team-desig">Software Engineer</p>
+									<p class="team_about_text">Aut maiores voluptates amet et quis praesentium qui senda </p>
+									<div class="social_media_container">
+										<a href="#" target="_blank"><i class="fab fa-facebook-f img_icon"></i></a>
+
+										<a href="#" target="_blank"><i class="fab fa-twitter img_icon"></i></a>
+
+										<a href="#" target="_blank"><i class="fab fa-instagram-square img_icon"></i></a>
+
+										<a href="#" target="_blank"><i class="fab fa-linkedin img_icon"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="row team_card_container">
+								<div class="col-4 team_image_container">
+									<img src="img/instructor-3.jpg" class="team_image" alt="Wilium Anderson">
+								</div>
+								<div class="col-8 team_about gx-5">
+									<h3 class="team_name">Wilium Anderson</h3>
+									<p class="team-desig">Data Scientiest</p>
+									<p class="team_about_text">Quisquam facilis cum velit laborum corrupti fuga rerum</p>
+									<div class="social_media_container">
+										<a href="#" target="_blank"><i class="fab fa-facebook-f img_icon"></i></a>
+
+										<a href="#" target="_blank"><i class="fab fa-twitter img_icon"></i></a>
+
+										<a href="#" target="_blank"><i class="fab fa-instagram-square img_icon"></i></a>
+
+										<a href="#" target="_blank"><i class="fab fa-linkedin img_icon"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="row team_card_container">
+								<div class="col-4 team_image_container">
+									<img src="img/instructor-4.jpg" class="team_image" alt="Amanda Jepson">
+								</div>
+								<div class="col-8 team_about gx-8">
+									<h3 class="team_name">Amanda Jepson</h3>
+									<p class="team-desig">UX/UI Designer</p>
+									<p class="team_about_text">Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+									<div class="social_media_container">
+										<a href="#" target="_blank"><i class="fab fa-facebook-f img_icon"></i></a>
+
+										<a href="#" target="_blank"><i class="fab fa-twitter img_icon"></i></a>
+
+										<a href="#" target="_blank"><i class="fab fa-instagram-square img_icon"></i></a>
+
+										<a href="#" target="_blank"><i class="fab fa-linkedin img_icon"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+
+
+<!------------------------------Frequently Asked Question--------------------------------->
+			<section id="FAQ" class="faq p-5">
+				<div class="container">
+					<div class="faq_head">
+						<h3>FREQUENTLY ASKED QUESTIONS</h3>
+						
+					</div>
+						<!--Accordion starts here-->
+						<div class="accordion m-auto" id="our_second_accordion">
+							<!--Accordion Item one-->
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button 
+									class="accordion-button collapsed" 
+									type="button" data-bs-toggle="collapse" data-bs-target="#accordion_one_faq" data-bs-parent="#our_second_accordion" >
+									<span class="accordion_button_icon"><i class="far fa-question-circle"></i></span> Non consectetur a erat nam at lectus urna duis?
+									</button>
+								</h2>
+								<div class="accordion-collapse collapse show" id="accordion_one_faq" data-bs-parent="#our_second_accordion">
+									<div class="accordion-body lead">
+										Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+									</div>
+								</div>
+							</div>
+							<!--Accordion Item two-->
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button 
+									class="accordion-button collapsed" 
+									type="button" data-bs-toggle="collapse" data-bs-target="#accordion_two_faq" data-bs-parent="#our_second_accordion">
+									<span class="accordion_button_icon"><i class="far fa-question-circle"></i></span>  Feugiat scelerisque varius morbi enim nunc?
+									</button>
+								</h2>
+								<div class="accordion-collapse collapse" id="accordion_two_faq" data-bs-parent="#our_second_accordion">
+									<div class="accordion-body lead">
+										Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+									</div>
+								</div>
+							</div>
+
+							<!--Accordion Item three-->
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button 
+									class="accordion-button collapsed" 
+									type="button" data-bs-toggle="collapse" data-bs-target="#accordion_three_faq" data-bs-parent="#our_second_accordion">
+									<span class="accordion_button_icon"><i class="far fa-question-circle"></i></span> Dolor sit amet consectetur adipiscing elit?
+									</button>
+								</h2>
+								<div class="accordion-collapse collapse" id="accordion_three_faq" data-bs-parent="#our_second_accordion">
+									<div class="accordion-body lead">
+										Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+									</div>
+								</div>
+							</div>
+
+
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button 
+									class="accordion-button collapsed" 
+									type="button" data-bs-toggle="collapse" data-bs-target="#accordion_four" data-bs-parent="#our_second_accordion">
+									<span class="accordion_button_icon"><i class="far fa-question-circle"></i></span> Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+									</button>
+								</h2>
+								<div class="accordion-collapse collapse" id="accordion_four" data-bs-parent="#our_second_accordion">
+									<div class="accordion-body lead">
+										Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+									</div>
+								</div>
+							</div>
+
+							<div class="accordion-item">
+								<h2 class="accordion-header">
+									<button 
+									class="accordion-button collapsed" 
+									type="button" data-bs-toggle="collapse" data-bs-target="#accordion_five" data-bs-parent="#our_second_accordion">
+									<span class="accordion_button_icon"><i class="far fa-question-circle"></i></span> Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
+									</button>
+								</h2>
+								<div class="accordion-collapse collapse" id="accordion_five" data-bs-parent="#our_second_accordion">
+									<div class="accordion-body lead">
+										Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			
+<!--------------------------Contact Section-------------------------------------------->
+			<section class="contact py-4 pb-4 mt-5 my-5" id="contact-section">
+				<div class="container">
+					<div class="contact_head">
+						<h3 class="mt-5">CONTACT</h3>
+						<P>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</P>
+					</div>
+					<div class="row contact_section_flex">
+						<div class="col-lg-5 info_section shadow ">
+							<div class="adress d-flex align-items-center">
+								<i class="fas fa-map-marker-alt info_icon"></i>
+								<div class="adress-text">
+									<h4>Location:</h4>
+									<p>A108 Koipara, Sgerpur, Bogura</p>
+								</div>
+							</div>
+							<div class="email d-flex align-items-center">
+								<i class="far fa-envelope info_icon"></i>
+								<div class="email-text">
+									<h4>Email:</h4>
+									<p>Ferdous@gmail.com</p>
+								</div>
+							</div>
+							<div class="call d-flex align-items-center">
+								<i class="fas fa-mobile-alt info_icon"></i>
+								<div class="call-text">
+									<h4>Call:</h4>
+									<p>+88 01345 34005</p>
+								</div>
+							</div>
+							<div class="map">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.895281959729!2d-73.99104838459549!3d40.69830387933341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a35da2fd673%3A0x218ed6cc00224ef8!2sAdams%20St%2C%20Brooklyn%2C%20NY%2011201%2C%20USA!5e0!3m2!1sen!2sbd!4v1644853453261!5m2!1sen!2sbd" width="420" height="300" style="border:0; width:98%" allowfullscreen="" loading="lazy"></iframe>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md message_section shadow">
+							<form class="col-md">
+								<div class="row">
+									<div class="col-md-6 mb-4 form-floating">
+										<input type="name" class="form-control" id="floatingInput" placeholder="Your Name"/>
+										<label for="floatingInput" class="floating_label">Your Name</label>
+									</div>
+									<div class="col-md-6 mb-4 form-floating">
+										<input type="email" class="form-control" id="floatingInput" placeholder="Email"/>
+										<label for="floatingInput" class="floating_label">Your Email</label>
+									</div>
+									<div class="col-md-12 mb-4 form-floating">
+										<input type="text" class="form-control" id="floatingInput" placeholder="Email"/>
+										<label for="floatingInput" class="floating_label">Subject</label>
+									</div>
+									<div class="col-md-12 mb-5 form-floating">
+										<textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 18rem"></textarea>
+									<label for="floatingTextarea2" class="floating_label">Comments</label>
+									</div>
+									<button type="button" class="message_button rounded-3">Send Message</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+<!--------------- -------------News letter section ---------------------->
+			<section id="news-letter-section" class="p-5 bg-color-news-letter">
+									<div class="container">
+										<div
+											class="d-md-flex justify-content-between align-items-center"
+										>
+											<h3 class=" news-letetr-title mb-3 mb-md-0">
+												Subscribe for our Newsletter!
+											</h3>
+											<div class="input-group news-input">
+												<input
+													type="text"
+													class="form-control shadow-sm"
+													placeholder="Enter email"
+													aria-label="Enter email "
+													aria-describedby="button-addon2"
+												/>
+												<button
+													class="btn btn-lg button-color-letter btn-outline-secondary"
+													type="button"
+												>
+													Subscribe
+												</button>
+											</div>
+										</div>
+									</div>
+			</section>
+		</main>
+		<!-- ----------------------pagination-----------------  -->
+		<div class="d-flex m-5 justify-content-center">
+			<nav aria-label="...">
+				<ul class="pagination pagination-lg">
+					<li class="page-item active" aria-current="page">
+						<span class="page-link">1</span>
+					</li>
+					<li class="page-item"><a class="page-link" href="#">2</a></li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+				</ul>
+			</nav>
+		</div>
+<!-- -------------------------Footer------------------------ -->
+		<footer class="p-5 mt-5 bg-color-hero text-center position-relative">
+			<div class="container">
+				<a href="#" class="position-absolute bottom-0 end-0 p-5">
+					<i class="fas fa-arrow-circle-up fa-3x" style="color: #2e4f80;"></i>
+				</a>
+				<p class="lead">Copyright &copy; 2023 CodeTime</p>
+				<p class="lead">Created with 💜 Shahriar Ferdous</p>
+			</div>
+		</footer>
+
+		<!-- Modal use-->
+		<div class="modal fade" id="started" tabindex="-1" aria-labelledby="startedLabel" aria-hidden="true">
+			<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+				<h1 class="modal-title fs-5" id="startedLabel">Enter To the CodeTime</h1>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p class="lead">Fill Out this form</p>
+					<form action="">
+						<div class="mb-3">
+							<label for="first-Name" class="col-form-label">
+								First Name:
+							</label>
+							<input type="text" class="form-control" id="first-Name">
+						</div>
+						<div class="mb-3">
+							<label for="email" class="col-form-label">
+								Email:
+							</label>
+							<input type="text" class="form-control" id="email">
+						</div>
+						<div class="mb-3">
+							<label for="password" class="col-form-label">
+								Password:
+							</label>
+							<input type="text" class="form-control" id="password">
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Already Signed Up</button>
+				<button type="button" class="btn btn-primary">Sign Me Up</button>
+				</div>
+			</div>
+			</div>
+		</div>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+			crossorigin="anonymous"
+		></script>
+		<script src="index.js"></script>
+	</body>
+</html>
