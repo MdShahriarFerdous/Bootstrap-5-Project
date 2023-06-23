@@ -1,8 +1,6 @@
 # Bootstrap-5-Project-Live-Link:⬇
 # https://bootstrap-5-site-v1-by-ferdous.netlify.app/
 
-# This project has created with time, efforts, 💜love, learning, understanding and tried to cover all the objectives of the project's assignment.
-# This project has created without any UX/UI design because of short time and there may be issues. After all mistakes happen🙂
 
 Objective of the Project/Assignment:
 
@@ -27,12 +25,21 @@ Build a web application using Bootstrap version 5.The application should include
   - On the 3rd row placeholders and spinners has used for the purpose of loading.
 
   - On the testimonial or students' testimonial section  (***Covers bootstrap 5's carousel)
+    
   - On the next and success section  (***Covers bootstrap 5's progressBar)
- - The recent placement section (***Covers bootstrap 5's listGroups)
-  ---The instructor section do not have any new things to cover.
-  ---After the instructor section there comes offline branch section (***Covers bootstrap 5's table)
-  ---The FAQ section (***Covers bootstrap 5's Accordion)
-  ---After that aspect ratio section comes that (***Covers bootstrap 5's aspect-ratio)
-  ---On the next the Alumni's word section (***Covers bootstrap 5's tab-view)
-  ---The contact and news letter section (***Covers bootstrap 5's form, shadow)
-  ---After the news letter section there is pagination section (***Covers bootstrap 5's pagination)
+    
+  - The recent placement section (***Covers bootstrap 5's listGroups)
+   
+  - The instructor section do not have any new things to cover.
+  
+  - After the instructor section there comes offline branch section (***Covers bootstrap 5's table)
+  
+  - The FAQ section (***Covers bootstrap 5's Accordion)
+  
+  - After that aspect ratio section comes that (***Covers bootstrap 5's aspect-ratio)
+  
+  - On the next the Alumni's word section (***Covers bootstrap 5's tab-view)
+  
+  - The contact and news letter section (***Covers bootstrap 5's form, shadow)
+  
+  - After the news letter section there is pagination section (***Covers bootstrap 5's pagination)
