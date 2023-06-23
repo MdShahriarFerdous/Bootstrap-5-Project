@@ -1,8 +1,8 @@
 # Bootstrap-5-Project-Live-Link:⬇
-https://bootstrap-5-site-v1-by-ferdous.netlify.app/
+# https://bootstrap-5-site-v1-by-ferdous.netlify.app/
 
 # This project has created with time, efforts, 💜love, learning, understanding and tried to cover all the objectives of the project's assignment.
-# This project has created without any UX/UI design because of short time and there may be isues. Mistakes happen🙂
+# This project has created without any UX/UI design because of short time and there may be issues. After all mistakes happen🙂
 
 Objective of the Project/Assignment:
 
