@@ -23,7 +23,6 @@ function toggleTheme() {
 // const paragraph = courseSection.querySelector("p");
 
 // if (hasClass) {
-// 	bodyTag.style.color = "lightblue";
-// 	heading.style.color = "white";
-// 	paragraph.style.color = "white";
+// 	const courseSection = document.querySelector("#course-section .contact_head h3");
+// 	courseSection.style.color = white;
 // }
